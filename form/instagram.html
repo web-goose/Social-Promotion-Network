@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="form-group text-center">
+      <div class="dropdown">
+        <button class="btn btn-secondary drop text-left d-flex align-self-center" type="button" id="service" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" name="service_name" value="You_Followers">
+          <i class="fas fa-user"></i> Followers
+        </button>
+        <div class="dropdown-menu" aria-labelledby="service">
+          <button class="dropdown-item" type="button" name="Insta_Followers" onclick="DropDownChange('Insta_Followers')"><i class="fas fa-user"></i> Followers</button>
+          <button class="dropdown-item" type="button" name="Insta_Likes" onclick="DropDownChange('Insta_Likes')"><i class="fas fa-thumbs-up"></i> Likes</button>
+          <button class="dropdown-item" type="button" name="Insta_Comments" onclick="DropDownChange('Insta_Comments')"><i class="fas fa-comments"></i> Comments</button>
+          <button class="dropdown-item" type="button" name="Insta_Views_for_stories" onclick="DropDownChange('Twit_Views_for_stories')"><i class="fas fa-eye"></i> Views for stories</button>
+          <button class="dropdown-item" type="button" name="Insta_Likes_to_comment" onclick="DropDownChange('Insta_Likes_to_comment')"><i class="fas fa-thumbs-up"></i> Likes to comment</button>
+          <button class="dropdown-item" type="button" name="Insta_Video_views" onclick="DropDownChange('Insta_Video_views')"><i class="fas fa-video"></i> Video views</button>
+          <button class="dropdown-item" type="button" name="Insta_Subscribe_on_likes" onclick="DropDownChange('Insta_Subscribe_on_likes')"><i class="fas fa-users"></i> Subscribe on likes</button>
+          <button class="dropdown-item" type="button" name="Insta_Live_video" onclick="DropDownChange('Live_video')"><i class="fas fa-video"></i> Live video</button>
+        </div>
+      </div>
+      <label>choose a service</label>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 type text-center">
+    <button type="button" class="" name="Alive" onclick="TypeChange('Alive')">Alive
+      <button type="button" class="active" name="Robots" onclick="TypeChange('Robots')">Robots</button>
+      <input type="hidden" name="type" value="Robots">
+      <label>type</label>
+  </div>
+  <div class="col-md-6 text-center">
+    <div class="range d-flex align-items-center justify-content-between">
+      <button type="button" name="range_minus" onclick="RangeChange('Minus')"><img src="img/order/minus.png" alt="Minus"></button>
+      <input type="number" class="number" id="count" value="50">
+      <button type="button" name="range_plus" onclick="RangeChange('Plus')"><img src="img/order/plus.png" alt="Plus"></button>
+    </div>
+    <label>count</label>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 target text-center"><input type="text" name="target" style="background-image: url('../img/order/insta.png');" placeholder="Insta"><label>your Instagram</label></div>
+  <div class="col-md-6 email text-center"><input type="text" name="email" placeholder="Email"><label>email</label></div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="info">
+      <p>Bots from around the world, spinning quickly and with a stock.
+        In the database of 40 000 pcs.There may be written off by instagram,
+        auto-twist 30 days. It is possible on the closed profile.</p>
+    </div>
+  </div>
+  <div class="col-md-6 btn_order text-center"><button type="button" name="button" onclick="CreateOrder()">ORDER</button> </div>
+</div>

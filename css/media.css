@@ -1,0 +1,171 @@
+@media (min-width: 1281px) {}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .information img {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  .information .soc {
+    background-size: contain;
+  }
+
+  header .title-block h1 {
+    font-size: 24px;
+  }
+
+  .order .info {
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  .price_list .col-md-2 {
+    visibility: hidden;
+  }
+
+  .order .type button {
+    font-size: 4vh;
+  }
+
+  .order .btn_order button {
+    padding-left: 20%;
+    font-size: 4vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) and(orientation: landscape) {
+  header .nav {
+    padding: 20px 0;
+  }
+
+  header .title-block button {
+    margin-bottom: 15vh;
+  }
+
+  header .title-block h1 {
+    font-size: 24px;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .information #carouselInfo {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  .information .item {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 20px;
+  }
+
+  .information .container {
+    display: none;
+  }
+
+  .price_list {
+    padding: 0 20px;
+  }
+
+  .price_list .col-md-2 {
+    display: none;
+  }
+
+  .order .info {
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  .order .btn_order button {
+    padding-left: 20%;
+    font-size: 4vh;
+  }
+
+  .order .type button {
+    font-size: 4vh;
+  }
+
+  .information .carousel-indicators .active {
+    background-color: #146AFA;
+  }
+
+  .information .carousel-indicators li {
+    background-color: gray;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  header {
+    height: auto;
+  }
+
+  header .nav {
+    padding: 20px 0;
+  }
+
+  header .title-block button {
+    margin-bottom: 15vh;
+  }
+
+  header .title-block h1{
+    font-size: 24px;
+  }
+
+  header .title-block button{
+    font-size: 16px;
+  }
+
+  .information #carouselInfo {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  .information .item {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 20px;
+  }
+
+  .information .container {
+    display: none;
+  }
+
+  .price_list {
+    padding: 0 20px;
+  }
+
+  .price_list .col-md-2 {
+    display: none;
+  }
+
+  .order .info {
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  .order .btn_order button {
+    padding-left: 20%;
+    font-size: 4vh;
+  }
+
+  .order .type button {
+    font-size: 4vh;
+  }
+
+  .information .carousel-indicators .active {
+    background-color: #146AFA;
+  }
+
+  .information .carousel-indicators li {
+    background-color: gray;
+  }
+}
